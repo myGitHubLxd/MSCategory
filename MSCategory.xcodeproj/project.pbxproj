@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD5D70EF1E84BA5500A37D0F /* MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D70EE1E84BA5500A37D0F /* MSCategory.m */; };
-		FD5D70F01E84BA5500A37D0F /* MSCategory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD5D70ED1E84BA5500A37D0F /* MSCategory.h */; };
+		FD5D70FE1E84C1CB00A37D0F /* UIButton+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D70F71E84C1CB00A37D0F /* UIButton+Helpers.m */; };
+		FD5D70FF1E84C1CB00A37D0F /* UILabel+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D70F91E84C1CB00A37D0F /* UILabel+Helpers.m */; };
+		FD5D71001E84C1CB00A37D0F /* UITableViewCell+CreateByCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D70FB1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.m */; };
+		FD5D71011E84C1CB00A37D0F /* UIView+TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D70FD1E84C1CB00A37D0F /* UIView+TableViewCell.m */; };
+		FD5D71031E84C27000A37D0F /* UIButton+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D70F61E84C1CB00A37D0F /* UIButton+Helpers.h */; };
+		FD5D71041E84C27000A37D0F /* UILabel+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D70F81E84C1CB00A37D0F /* UILabel+Helpers.h */; };
+		FD5D71051E84C27000A37D0F /* UITableViewCell+CreateByCode.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D70FA1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.h */; };
+		FD5D71061E84C27000A37D0F /* UIView+TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D70FC1E84C1CB00A37D0F /* UIView+TableViewCell.h */; };
+		FD5D71071E84C2A600A37D0F /* UIButton+Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD5D70F61E84C1CB00A37D0F /* UIButton+Helpers.h */; };
+		FD5D71081E84C2A600A37D0F /* UILabel+Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD5D70F81E84C1CB00A37D0F /* UILabel+Helpers.h */; };
+		FD5D71091E84C2A600A37D0F /* UITableViewCell+CreateByCode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD5D70FA1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.h */; };
+		FD5D710A1E84C2A600A37D0F /* UIView+TableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD5D70FC1E84C1CB00A37D0F /* UIView+TableViewCell.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +28,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				FD5D70F01E84BA5500A37D0F /* MSCategory.h in CopyFiles */,
+				FD5D71071E84C2A600A37D0F /* UIButton+Helpers.h in CopyFiles */,
+				FD5D71081E84C2A600A37D0F /* UILabel+Helpers.h in CopyFiles */,
+				FD5D71091E84C2A600A37D0F /* UITableViewCell+CreateByCode.h in CopyFiles */,
+				FD5D710A1E84C2A600A37D0F /* UIView+TableViewCell.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +39,14 @@
 
 /* Begin PBXFileReference section */
 		FD5D70EA1E84BA5500A37D0F /* libMSCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD5D70ED1E84BA5500A37D0F /* MSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCategory.h; sourceTree = "<group>"; };
-		FD5D70EE1E84BA5500A37D0F /* MSCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCategory.m; sourceTree = "<group>"; };
+		FD5D70F61E84C1CB00A37D0F /* UIButton+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Helpers.h"; sourceTree = "<group>"; };
+		FD5D70F71E84C1CB00A37D0F /* UIButton+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Helpers.m"; sourceTree = "<group>"; };
+		FD5D70F81E84C1CB00A37D0F /* UILabel+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helpers.h"; sourceTree = "<group>"; };
+		FD5D70F91E84C1CB00A37D0F /* UILabel+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helpers.m"; sourceTree = "<group>"; };
+		FD5D70FA1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CreateByCode.h"; sourceTree = "<group>"; };
+		FD5D70FB1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CreateByCode.m"; sourceTree = "<group>"; };
+		FD5D70FC1E84C1CB00A37D0F /* UIView+TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TableViewCell.h"; sourceTree = "<group>"; };
+		FD5D70FD1E84C1CB00A37D0F /* UIView+TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TableViewCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +79,33 @@
 		FD5D70EC1E84BA5500A37D0F /* MSCategory */ = {
 			isa = PBXGroup;
 			children = (
-				FD5D70ED1E84BA5500A37D0F /* MSCategory.h */,
-				FD5D70EE1E84BA5500A37D0F /* MSCategory.m */,
+				FD5D70F61E84C1CB00A37D0F /* UIButton+Helpers.h */,
+				FD5D70F71E84C1CB00A37D0F /* UIButton+Helpers.m */,
+				FD5D70F81E84C1CB00A37D0F /* UILabel+Helpers.h */,
+				FD5D70F91E84C1CB00A37D0F /* UILabel+Helpers.m */,
+				FD5D70FA1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.h */,
+				FD5D70FB1E84C1CB00A37D0F /* UITableViewCell+CreateByCode.m */,
+				FD5D70FC1E84C1CB00A37D0F /* UIView+TableViewCell.h */,
+				FD5D70FD1E84C1CB00A37D0F /* UIView+TableViewCell.m */,
 			);
 			path = MSCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD5D71021E84C23100A37D0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5D71031E84C27000A37D0F /* UIButton+Helpers.h in Headers */,
+				FD5D71041E84C27000A37D0F /* UILabel+Helpers.h in Headers */,
+				FD5D71051E84C27000A37D0F /* UITableViewCell+CreateByCode.h in Headers */,
+				FD5D71061E84C27000A37D0F /* UIView+TableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FD5D70E91E84BA5500A37D0F /* MSCategory */ = {
@@ -76,6 +115,7 @@
 				FD5D70E61E84BA5500A37D0F /* Sources */,
 				FD5D70E71E84BA5500A37D0F /* Frameworks */,
 				FD5D70E81E84BA5500A37D0F /* CopyFiles */,
+				FD5D71021E84C23100A37D0F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -123,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5D70EF1E84BA5500A37D0F /* MSCategory.m in Sources */,
+				FD5D71011E84C1CB00A37D0F /* UIView+TableViewCell.m in Sources */,
+				FD5D71001E84C1CB00A37D0F /* UITableViewCell+CreateByCode.m in Sources */,
+				FD5D70FF1E84C1CB00A37D0F /* UILabel+Helpers.m in Sources */,
+				FD5D70FE1E84C1CB00A37D0F /* UIButton+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

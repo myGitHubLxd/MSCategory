@@ -1,0 +1,1 @@
+this is a myself pod spec.
